@@ -26,7 +26,7 @@ B2 = np.array([0.1, 0.2])
 A2 = np.dot(Z1, W2) + B2
 Z2 = sigmoid(A2)
 
-# 出力層に使われる活性化関数(恒等関数)
+# 出力層に使われる恒等関数
 def identity_function(x):
 	return x
 
